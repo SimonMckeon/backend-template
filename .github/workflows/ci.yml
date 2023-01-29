@@ -28,7 +28,7 @@ jobs:
         run: npm run lint
 
       - name: Format w/ Prettier
-        run: npm run format
+        run: npm run prettier:format
 
       - name: Unit tests
         run: npm run test:unit
